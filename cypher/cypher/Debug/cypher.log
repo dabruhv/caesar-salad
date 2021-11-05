@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\810860\source\repos\cypher\cypher\Source.cpp(31,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\810860\source\repos\cypher\cypher\Source.cpp(39,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\810860\source\repos\cypher\cypher\Source.cpp(46,23): warning C4018: '<': signed/unsigned mismatch
+  cypher.vcxproj -> C:\Users\810860\source\repos\cypher\Debug\cypher.exe
