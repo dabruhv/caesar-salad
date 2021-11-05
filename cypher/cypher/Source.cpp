@@ -31,7 +31,7 @@ int main() {
     for (int i = 0; i < message.size(); i++) {
 
        coded[i]=message[i] + key;
-       decoded[i] = message[i];
+
     }
 
     //print out the coded array
@@ -44,6 +44,7 @@ int main() {
     //decode by subtracting the key from each slot in the coded array and storing it into the corresponding slot in the decoded array
     cout << "decoded message:" << endl;
     for (int i = 0; i < message.size(); i++) {
+        decoded[i]=coded[i] - key;
         cout << decoded[i];
     }
 
